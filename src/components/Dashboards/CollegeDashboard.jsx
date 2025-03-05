@@ -1,15 +1,15 @@
+import { Bell, Calendar, Eye, Menu, PlusCircle, Users } from "lucide-react";
 import { useState } from "react";
 import {
-  BarChart,
   Bar,
+  BarChart,
+  ResponsiveContainer,
+  Tooltip,
   XAxis,
   YAxis,
-  Tooltip,
-  ResponsiveContainer,
 } from "recharts";
-import { Menu, Users, Calendar, Bell, PlusCircle, Eye } from "lucide-react";
-import { Card, CardContent } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Button } from "../ui/Button";
+import { Card, CardContent } from "../ui/Card";
 
 const data = [
   { name: "Mon", Present: 80, Absent: 20 },
