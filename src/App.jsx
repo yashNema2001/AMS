@@ -5,6 +5,7 @@ import CollegeLogin from "./components/forms/CollegeLogin";
 import CollegeRegistration from "./components/forms/CollegeRegistration";
 import FacultyLogin from "./components/forms/FacultyLogin";
 import StudentLogin from "./components/forms/StudentLogin";
+import CollegeDashboard from "./components/Dashboards/CollegeDashboard";
 export default function App() {
   return (
     <Router>
@@ -14,6 +15,7 @@ export default function App() {
         <Route path="/collegeLogin" element={<CollegeLogin />} />
         <Route path="/FacultyLogin" element={<FacultyLogin />} />
         <Route path="/StudentLogin" element={<StudentLogin />} />
+        <Route path="/register" element={<CollegeDashboard />} />
       </Routes>
     </Router>
   );
